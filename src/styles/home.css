@@ -1,0 +1,148 @@
+/* Page layout */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex-grow: 1;
+    padding: 50px;
+}
+
+/* Header */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    line-height: 1.5;
+}
+
+header {
+    background-color: #0C1E3F;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Sections */
+
+section {
+    margin-bottom: 50px;
+    padding: 50px;
+}
+
+section h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+section li {
+    margin-bottom: 30px;
+}
+
+section h3 {
+    margin: 0;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+/* About Me */
+
+#familyPhoto {
+    margin: 20px;
+    width: 300px;
+    height: 300px;
+    border-radius: 30%;
+    overflow: hidden;
+    float: left;
+}
+
+#familyPhoto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* Education */
+
+#education {
+    background-color: #f8f8f8;
+    padding: 50px;
+    margin-bottom: 50px;
+}
+
+#education h2 {
+    font-size: 3em;
+    margin-bottom: 30px;
+}
+
+#education p {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+/* Projects */
+#projects {
+    background-color: #f8f8f8;
+    padding: 50px;
+    margin-bottom: 50px;
+}
+
+/* Work */
+#work {
+    background-color: #f8f8f8;
+    padding: 50px;
+    margin-bottom: 50px;
+}
+
+/* Footer*/
+
+footer {
+    background-color: #0C1E3F;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0;
+}
